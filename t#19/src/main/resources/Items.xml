@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tc:items xmlns:tc="http://www.epam.tc.com/notes"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.epam.tc.com/Items Items.xsd">
+
+
+	<tc:Item>
+		<tc:Id>1</tc:Id>
+		<tc:OwnerId>-1</tc:OwnerId>
+		<tc:Name>Football helmet</tc:Name>
+		<tc:Price>20.0</tc:Price>
+		<tc:Status>Available</tc:Status>
+	</tc:Item>
+	<tc:Item>
+		<tc:Id>2</tc:Id>
+		<tc:OwnerId>-1</tc:OwnerId>
+		<tc:Name>Shoulder pads</tc:Name>
+		<tc:Price>11.1</tc:Price>
+		<tc:Status>Available</tc:Status>
+	</tc:Item>
+		<tc:Item>
+		<tc:Id>3</tc:Id>
+		<tc:OwnerId>-1</tc:OwnerId>
+		<tc:Name>Mouthguards</tc:Name>
+		<tc:Price>5.0</tc:Price>
+		<tc:Status>Available</tc:Status>
+	</tc:Item>
+	<tc:Item>
+		<tc:Id>4</tc:Id>
+		<tc:OwnerId>2001</tc:OwnerId>
+		<tc:Name>Ski suits</tc:Name>
+		<tc:Price>99.9</tc:Price>
+		<tc:Status>Rented</tc:Status>
+	</tc:Item>
+	<tc:Item>
+		<tc:Id>5</tc:Id>
+		<tc:OwnerId>2002</tc:OwnerId>
+		<tc:Name>Elbow pads</tc:Name>
+		<tc:Price>25.3</tc:Price>
+		<tc:Status>Rented</tc:Status>
+	</tc:Item>
+</tc:items>
