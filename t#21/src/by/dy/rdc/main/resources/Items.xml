@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
+	<Item>
+		<Id>1</Id>
+		<OwnerId>-1</OwnerId>
+		<Name>Football helmet</Name>
+		<Price>20.0</Price>
+		<Status>Available</Status>
+	</Item>
+	<Item>
+		<Id>2</Id>
+		<OwnerId>-1</OwnerId>
+		<Name>Shoulder pads</Name>
+		<Price>11.1</Price>
+		<Status>Available</Status>
+	</Item>
+		<Item>
+		<Id>3</Id>
+		<OwnerId>-1</OwnerId>
+		<Name>Mouthguards</Name>
+		<Price>5.0</Price>
+		<Status>Available</Status>
+	</Item>
+	<Item>
+		<Id>4</Id>
+		<OwnerId>2001</OwnerId>
+		<Name>Ski suits</Name>
+		<Price>99.9</Price>
+		<Status>Rented</Status>
+	</Item>
+	<Item>
+		<Id>5</Id>
+		<OwnerId>2002</OwnerId>
+		<Name>Elbow pads</Name>
+		<Price>25.3</Price>
+		<Status>Rented</Status>
+	</Item>
+</items>
