@@ -19,11 +19,11 @@ public class Main {
         Document document = parser.getDocument();
         Element root = document.getDocumentElement();
         List<Item> itemList = new ArrayList<Item>();
-        NodeList foodNodes = root.getElementsByTagName("Item");
+        NodeList itemNodes = root.getElementsByTagName("Item");
         Item item = null;
-        for (int i = 0; i < foodNodes.getLength(); i++) {
+        for (int i = 0; i < itemNodes.getLength(); i++) {
             item = new Item();
-            Element itemElement = (Element) foodNodes.item(i);
+            Element itemElement = (Element) itemNodes.item(i);
             item.setId(Integer.parseInt(getSingleChild(itemElement, "Id").getTextContent().trim()));
             item.setOwnerId((Integer.parseInt(getSingleChild(itemElement, "OwnerId").getTextContent().trim())));
             item.setName(getSingleChild(itemElement, "Name").getTextContent().trim());
