@@ -12,14 +12,14 @@ public class SaxP extends DefaultHandler{
     private List<Item> itemList = new ArrayList<Item>();
     private Item item;
     private StringBuilder text;
-    String thisElement = "";
+    String thisElement = "";// куда исчез атрибут доступа?
 
     public List<Item> getResult(){
         return itemList;
     }
 
     @Override
-    public void startDocument() throws SAXException {
+    public void startDocument() throws SAXException {// не нужные методы писать не нужно
         System.out.println("Start parse XML...");
     }
 
@@ -27,7 +27,7 @@ public class SaxP extends DefaultHandler{
     public void startElement(String namespaceURI, String localName, String qName, Attributes atts) throws SAXException {
         text = new StringBuilder();
         thisElement = qName;
-        if (thisElement.equals("Item")) {
+        if (thisElement.equals("Item")) {// константная неименованная строка
             item = new Item();
         }
 
